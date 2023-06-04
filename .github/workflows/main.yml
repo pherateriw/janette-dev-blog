@@ -21,9 +21,10 @@ jobs:
       env:
         TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
         TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+        TINA_BRANCH: main
       run: |
         npm install
-        npx tinacms build
+        npm run build
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
