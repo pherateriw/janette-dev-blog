@@ -170,3 +170,5 @@ cypress/videos/kitchen-sink/sidebar.spec.js.mp4
 build/**
 dist/**
 .next/**
+public/**
+resources/_gen/**

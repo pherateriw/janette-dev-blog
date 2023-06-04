@@ -33,3 +33,13 @@ jobs:
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASS }}
         protocol: ftps
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          archetypes/**
+          themes/**
+          tina/**
+          .env*
+          README.md
+          
