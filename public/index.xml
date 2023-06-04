@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Janette&#39;s Dev Blog</title>
+    <link>janetterounds.com/</link>
+    <description>Recent content on Janette&#39;s Dev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Jun 2023 06:00:00 +0000</lastBuildDate><atom:link href="janetterounds.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, World!</title>
+      <link>janetterounds.com/posts/hello-world/</link>
+      <pubDate>Sun, 04 Jun 2023 06:00:00 +0000</pubDate>
+      
+      <guid>janetterounds.com/posts/hello-world/</guid>
+      <description>Hello World! Hi! My name is Janette and I&amp;rsquo;m a software engineer. Welcome to my new blog! In my career, I&amp;rsquo;ve done a little bit of a lot of things, but I wanted to start doing deeper dives on some personal projects. You can find more about me and links to my other stuff on the About page.
+This blog will mostly be about my personal development projects, with some other art and science stuff thrown in for spice.</description>
+      <content>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;
+&lt;p&gt;Hi! My name is Janette and I&amp;rsquo;m a software engineer. Welcome to my new blog! In my career, I&amp;rsquo;ve done a little bit of a lot of things, but I wanted to start doing deeper dives on some personal projects.  You can find more about me and links to my other stuff on the About page.&lt;/p&gt;
+&lt;p&gt;This blog will mostly be about my personal development projects, with some other art and science stuff thrown in for spice.&lt;/p&gt;
+&lt;h3 id=&#34;upcoming-development-projects&#34;&gt;Upcoming development projects&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I built this site using &lt;a href=&#34;https://tina.io/&#34;&gt;https://tina.io/&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io/,&#34;&gt;https://gohugo.io/,&lt;/a&gt; and it is hosted on &lt;a href=&#34;https://www.namecheap.com/&#34;&gt;https://www.namecheap.com/&lt;/a&gt; . Some upcoming posts:
+&lt;ul&gt;
+&lt;li&gt;Deploying my sites to Namecheap Shared Hosting using Github Actions&lt;/li&gt;
+&lt;li&gt;How this site is made&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;I will have another site using React (among other things mostly TBD) at &lt;a href=&#34;https://neatskulls.dev/&#34;&gt;https://neatskulls.dev/&lt;/a&gt; . I&amp;rsquo;ll write more about building it when it is closer to being completed, but it will be a catalog of animal skulls from my personal collection. Content warning: photos of animal skulls. For science!&lt;/li&gt;
+&lt;li&gt;More projects to follow!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you for coming along on my development journey, see you soon!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>janetterounds.com/about/</link>
+      <pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>janetterounds.com/about/</guid>
+      <description>Hi there Hi! My name is Janette and this is my website. Specifically, this is my development blog where I will post about my development projects.
+About Me I&amp;rsquo;m a software engineer, with a background in wildlife science and an interest in all things STEAM (Science, Technology, Engineering, Art, and Mathematics). I blog, I make weird little apps, and occasionally I paint or embroider things. Hope you enjoy!
+Where you can find me My website (you&amp;rsquo;re here already): janetterounds.</description>
+      <content>&lt;h1 id=&#34;hi-there&#34;&gt;Hi there&lt;/h1&gt;
+&lt;p&gt;Hi! My name is Janette and this is my website. Specifically, this is my development blog where I will post about my development projects.&lt;/p&gt;
+&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m a software engineer, with a background in wildlife science and an interest in all things STEAM (Science, Technology, Engineering, Art, and Mathematics). I blog, I make weird little apps, and occasionally I paint or embroider things. Hope you enjoy!&lt;/p&gt;
+&lt;h2 id=&#34;where-you-can-find-me&#34;&gt;Where you can find me&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;My website (you&amp;rsquo;re here already): janetterounds.com&lt;/li&gt;
+&lt;li&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/janette-rounds&#34;&gt;https://www.linkedin.com/in/janette-rounds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github: &lt;a href=&#34;https://github.com/pherateriw&#34;&gt;https://github.com/pherateriw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My other major personal project: &lt;a href=&#34;https://neatskulls.dev/&#34;&gt;https://neatskulls.dev/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

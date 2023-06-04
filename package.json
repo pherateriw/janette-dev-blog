@@ -24,5 +24,9 @@
     "@tinacms/cli": "^1.5.6",
     "next-tinacms-cloudinary": "^4.3.0",
     "tinacms": "^1.4.6"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.106.1",
+    "hugo-bin-extended": "^0.112.7"
   }
 }
