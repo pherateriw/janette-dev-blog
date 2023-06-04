@@ -25,6 +25,7 @@ jobs:
       run: |
         npm install
         npm run build
+        cd public
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -33,13 +34,4 @@ jobs:
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASS }}
         protocol: ftps
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
-          archetypes/**
-          themes/**
-          tina/**
-          .env*
-          README.md
           
