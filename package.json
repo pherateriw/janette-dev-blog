@@ -1,0 +1,28 @@
+{
+  "name": "janette-dev-blog",
+  "version": "1.0.0",
+  "description": "A blog about my development journey",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pherateriw/janette-dev-blog.git"
+  },
+  "keywords": [],
+  "author": "Janette Rounds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pherateriw/janette-dev-blog/issues"
+  },
+  "homepage": "janetterounds.com",
+  "dependencies": {
+    "@tinacms/auth": "^1.0.3",
+    "@tinacms/cli": "^1.5.6",
+    "next-tinacms-cloudinary": "^4.3.0",
+    "tinacms": "^1.4.6"
+  }
+}
