@@ -17,9 +17,11 @@ jobs:
       with:
         node-version: '18'
       
-    - name: 🔨 Build Project
-      run: |
-        npm install
+    - name: Build TinaCMS
+      env:
+        TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
+        TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+      run: npx tinacms build
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
