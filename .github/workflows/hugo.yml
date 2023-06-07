@@ -58,9 +58,17 @@ jobs:
         run: |
           npm run build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: |
+            ./public
+            ./tina
+            ./content
+            ./static
+            ./resources
+            ./archetypes
+            !**/*node_modules
+            !./.git*   
 
   # Deployment job
   deploy:
