@@ -56,7 +56,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          npm tinacms build && hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
