@@ -4,8 +4,8 @@
   "description": "A blog about my development journey",
   "main": "index.js",
   "scripts": {
-    "dev": "tinacms dev -c \"hugo server -D\"",
-    "build": "tinacms build && hugo",
+    "dev": "tinacms dev -c \"hugo server -t terminal -D\"",
+    "build": "tinacms build && hugo -t terminal",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
