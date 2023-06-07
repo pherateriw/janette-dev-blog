@@ -60,7 +60,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./public
+          path: |
+            ./public
+            ./tina
 
   # Deployment job
   deploy:
