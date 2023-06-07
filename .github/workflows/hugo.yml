@@ -58,9 +58,9 @@ jobs:
         run: |
           npm run build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
-          path: ./  
+          path: . 
 
   # Deployment job
   deploy:
