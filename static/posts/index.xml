@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Janette Rounds</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Janette Rounds</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Jun 2023 06:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, World!</title>
+      <link>/posts/hello-world/</link>
+      <pubDate>Sun, 04 Jun 2023 06:00:00 +0000</pubDate>
+      
+      <guid>/posts/hello-world/</guid>
+      <description>Hello World! Hi! My name is Janette and I&amp;rsquo;m a software engineer. Welcome to my new blog! In my career, I&amp;rsquo;ve done a little bit of a lot of things, but I wanted to start doing deeper dives on some personal projects. You can find more about me and links to my other stuff on the About page.
+This blog will mostly be about my personal development projects, with some other art and science stuff thrown in for spice.</description>
+    </item>
+    
+  </channel>
+</rss>
