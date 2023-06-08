@@ -9,7 +9,7 @@ This site has been in active development for .... has it really only been a week
 
 ## How it was made
 
-First step, [set up a repo](https://docs.github.com/en/github-ae@latest/get-started/quickstart/create-a-repo "setuprepo") on Github (or Git platform of choice) 
+First step, [set up a repo](https://docs.github.com/en/github-ae@latest/get-started/quickstart/create-a-repo "setuprepo") on Github (or Git platform of choice). Also make sure you have Node.js and npm [installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm "nodesetup")
 
 ### Setting up TinaCMS
 
