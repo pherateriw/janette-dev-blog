@@ -1,34 +1,40 @@
-baseURL = 'janetterounds.com'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'My development journey'
-theme = "terminal"
-paginate = 5
-
-[module]
-[[module.imports]]
-  path = 'github.com/panr/hugo-theme-terminal/v3'
+title = 'Janette Rounds'
+theme = "m10c"
+paginate = 10
+relativeURLs = true
+homepage = 'janetterounds.com'
 
 [params]
-  contentTypeName = "posts"
-  themeColor = "blue"
-  showMenuItems = 2
+  author = "Janette Rounds"
+  description = "Software Engineer, Nature Fangirl, General Nerd"
+  avatar = "./uploads/BatAvatar.png"
+  menu_item_separator = "/"
+  favicon = "./uploads/favicon.ico"
 
-[languages.en]
-    title = "Janette's Dev Blog"
-    subtitle = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
+[[params.social]]
+  icon = "github"
+  name = "My Github"
+  url = "https://github.com/pherateriw"
+[[params.social]]
+  icon = "linkedin"
+  name = "My LinkedIn"
+  url = "https://www.linkedin.com/in/janette-rounds/"
 
-    [languages.en.params.logo]
-      logoText = "Janette"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-        
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 3
