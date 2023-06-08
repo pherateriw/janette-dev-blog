@@ -52,7 +52,7 @@ jobs:
         env:
           TINA_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-          TINA_BRANCH: main
+          TINA_BRANCH: tina-drafts
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
