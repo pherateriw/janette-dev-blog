@@ -17,8 +17,8 @@ Finally, set up an IDE of your choice (I use [vscode](https://code.visualstudio.
 
 Now that you have a repo, node, and an IDE, it's time to set up TinaCMS.
 
-1. Clone this repo into your repo: [https://github.com/tinacms/tina-hugo-starter](https://github.com/tinacms/tina-hugo-starter)
-2.
+1. Run npx create-tina-app@latest
+2. Follow the prompts (note that a lot of TinaCMS docs use yarn as the package manager, so maybe consider using yarn, unlike me). 
 
 ### Hugo
 
