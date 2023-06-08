@@ -15,7 +15,7 @@ paginate = 5
 
 [languages.en]
     title = "Janette's Dev Blog"
-    subtitle = "A simple, retro theme for Hugo"
+    subtitle = ""
     keywords = ""
     copyright = ""
     menuMore = "Show more"
