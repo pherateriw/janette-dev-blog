@@ -1,7 +1,7 @@
 ---
 title: Creating This Site
 date: 2023-06-08T06:00:00.000Z
-draft: true
+draft: false
 ---
 
 This site has been in active development for .... has it really only been a week?? It has seemed much longer. Not gonna lie, I had some struggles. I'll talk about those in the Struggles section. But first, the things that actually worked for me!
