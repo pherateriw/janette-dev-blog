@@ -28,9 +28,13 @@ Now that you have a repo, node, and an IDE, it's time to set up TinaCMS. I used 
 
 #### Configuring Themes
 
-This is an optional step, but you can find different themes [here](https://themes.gohugo.io/)
+This is an optional step, but you can find different themes [here](https://themes.gohugo.io/). I used the [m10c theme](https://github.com/vaga/hugo-theme-m10c). Setup is mostly the same as the README. Git will also ask you to run git submodule add https://github.com/vaga/hugo-theme-m10c themes/m10c before pushing your local branch to github. 
 
 ## Struggles
 
 * Hugo's default destination for generated static pages is the ./public folder. This meant that all the stuff for TinaCMS was not added to the output folder. Adding `--destination ./static` to the hugo build command fixes this. 
-* CSS/JS for the generated pages originally had incorrect paths in the html (`/<css/file/path>`). This meant that the site was deployed without any styling. I set `relativeURLs = true` , and now my site has styling. 
+* CSS/JS for the generated pages originally had incorrect paths in the html (e.g. `/<css/file/path>`). This meant that the site was deployed without any styling. I set `relativeURLs = true` , and now my site has styling. 
+
+## Wrapping Up
+
+I hope this helped you set up your own TinaCMS and Hugo site. Next up, deploying sites on push to the main branch with Github Actions! 
