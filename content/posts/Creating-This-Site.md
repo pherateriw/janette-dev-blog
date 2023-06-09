@@ -18,7 +18,7 @@ Finally, set up an IDE of your choice (I use [vscode](https://code.visualstudio.
 Now that you have a repo, node, and an IDE, it's time to set up TinaCMS.
 
 1. Run `npx create-tina-app@latest`
-2. Follow the prompts (note that a lot of TinaCMS docs use yarn as the package manager, so maybe consider using yarn instead). ![](</uploads/Screenshot 2023-06-07 at 10.39.38 PM.png>)
+2. Follow the prompts (note that a lot of TinaCMS docs use yarn as the package manager, so maybe consider using yarn instead). ![Screenshot of CLI which reads "Which package manager would you like to use? NPM. What is your project named? janette-demo. What starter code would you like to use? Hugo Starter"](</uploads/Screenshot 2023-06-07 at 10.39.38 PM.png> "TinaCLI")
 3. **Important!** In the package json, add `--destination ./static` to the build command after `hugo`. (I will discuss why in the Struggles section). ![](</uploads/Screenshot 2023-06-07 at 10.51.47 PM.png>)
 4. The setup instructions include a line about how this assumes you have Hugo running on your machine. I ran `brew install hugo` (windows set up instructions [here](https://gohugo.io/installation/windows/)). However, hugo may or may not be running on the server you deploy your site to. So I'd also recommend adding [hugo-bin-extended](https://www.npmjs.com/package/hugo-bin-extended) to your package.json file with `npm i hugo-bin-extended`.
 5. Run `npm run dev` and go to localhost:1313. ![Screen shot of a website with the title "My New Hugo Site" and some Lorem Ipsum](</uploads/Screenshot 2023-06-08 at 6.18.33 PM.png> "Hugo-starter generated site") ![](</uploads/Screenshot 2023-06-08 at 6.15.14 PM.png>)
