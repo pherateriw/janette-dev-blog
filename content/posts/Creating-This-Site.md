@@ -22,7 +22,7 @@ Now that you have a repo, node, and an IDE, it's time to set up TinaCMS. I used 
 3. **Important!** In the package json, add `--destination ./static` to the build command after `hugo`. (I will discuss why in the Struggles section). ![In the package json, add --destination ./static to the build command after hugo](</uploads/Screenshot 2023-06-07 at 10.51.47 PM.png>)
 4. The setup instructions include a line about how this assumes you have Hugo running on your machine. I ran `brew install hugo` (windows set up instructions [here](https://gohugo.io/installation/windows/)). However, hugo may or may not be running on the server you deploy your site to. So I'd also recommend adding [hugo-bin-extended](https://www.npmjs.com/package/hugo-bin-extended) to your package.json file with `npm i hugo-bin-extended`.
 5. Run `npm run dev` and go to localhost:1313 in your browser. ![Screen shot of a website with the title "My New Hugo Site" and some Lorem Ipsum](</uploads/Screenshot 2023-06-08 at 6.18.33 PM.png> "Hugo-starter generated site") 
-6. Create an account on TinaCMS cloud and set up a project, following [this doc](https://tina.io/docs/tina-cloud/)
+6. Create an account on TinaCMS cloud and set up a project, following [this doc](https://tina.io/docs/tina-cloud/). 
 7. Set environment variables
 8. \*\*Also Important! \*\*Configuring Hugo to use relative paths:
 9. Run `npm run build`
