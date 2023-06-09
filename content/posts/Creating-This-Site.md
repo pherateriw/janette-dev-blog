@@ -28,6 +28,8 @@ Now that you have a repo, node, and an IDE, it's time to set up TinaCMS. I used 
 
 #### Configuring Themes
 
+This is an optional step, but you can find different themes like the m10c theme I used [here](https://themes.gohugo.io/)
+
 ## Struggles
 
 * Hugo's default destination for generated static pages is the ./public folder. This meant that all the stuff for TinaCMS was not added to the output folder. Adding `--destination ./static` to the hugo build command fixes this. 
