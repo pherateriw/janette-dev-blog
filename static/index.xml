@@ -6,26 +6,7 @@
     <description>Recent content on Janette Rounds</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jun 2023 06:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Creating This Site</title>
-      <link>/posts/creating-this-site/</link>
-      <pubDate>Thu, 08 Jun 2023 06:00:00 +0000</pubDate>
-      
-      <guid>/posts/creating-this-site/</guid>
-      <description>This site has been in active development for &amp;hellip;. has it really only been a week?? It has seemed much longer. Not gonna lie, I had some struggles. I&amp;rsquo;ll talk about those in the Struggles section. But first, the things that actually worked for me!
-How it was made You can find the source code for this site on github. I used Tina CMS with Hugo and the m10c theme. I&amp;rsquo;ll talk more about hosting and deployment in a follow-up post.</description>
-    </item>
-    
-    <item>
-      <title>A Note On Structure</title>
-      <link>/posts/note-on-structure/</link>
-      <pubDate>Tue, 06 Jun 2023 06:00:00 +0000</pubDate>
-      
-      <guid>/posts/note-on-structure/</guid>
-      <description>The Struggle is Real While I am developing things, I sometimes struggle. I sometimes make the wrong decision and have to backtrack. Every other tutorial you&amp;rsquo;ve read was probably written by someone who also struggled with some things. All of the engineers I have worked with have struggled with code at one time or another. And here&amp;rsquo;s the thing, when you are learning to code, it often seems like everyone just somehow KNOWS what to do, that you are the only person in the world who doesn&amp;rsquo;t know how to do the thing.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 04 Jun 2023 06:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello, World!</title>
       <link>/posts/hello-world/</link>
