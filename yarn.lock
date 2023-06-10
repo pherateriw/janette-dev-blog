@@ -2535,7 +2535,12 @@
     got "^11.8.6"
     p-event "^5.0.1"
 
-"@xstate/fsm@^2.0.0", "@xstate/fsm@1.4.0":
+"@xstate/fsm@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/@xstate/fsm/-/fsm-2.0.1.tgz"
+  integrity sha512-fQhs8oWYl0KY4Xn3bvwby7WqXIWhI4+uUx4nOTDrKnayB08qm6t62xN1rnoDQTy621zfpox/lAXvTdZHJeksJw==
+
+"@xstate/fsm@1.4.0":
   version "1.4.0"
   resolved "https://registry.npmjs.org/@xstate/fsm/-/fsm-1.4.0.tgz"
   integrity sha512-uTHDeu2xI5E1IFwf37JFQM31RrH7mY7877RqPBS4ZqSNUwoLDuct8AhBWaXGnVizBAYyimVwgCyGa9z/NiRhXA==
