@@ -26,7 +26,6 @@
     "tinacms": "^1.4.6"
   },
   "devDependencies": {
-    "hugo-bin": "^0.106.1",
     "hugo-bin-extended": "^0.112.7"
   }
 }
