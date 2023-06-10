@@ -70,6 +70,24 @@ jobs:
 
 ## Github Pages
 
+![](</uploads/Screenshot 2023-06-10 at 12.37.34 PM.png>)
+
+```yaml
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
+
+```
+
 ## Struggles
+
+* Deploying to namecheap hosting fails
 
 ## Wrapping Up
