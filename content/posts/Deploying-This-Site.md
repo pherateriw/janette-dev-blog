@@ -111,6 +111,8 @@ What this does:
 
 This is easy to do. Just create a PR to the main branch, and merge it. Observe the action on the Actions tab for your repo. If your action succeeds, there will be a lovely green checkmark next to it. 
 
+![A screenshot of a successful Github Action with a green checkmark and the text "TinaCMS content update by Janette Rounds". Under that, there is more text "Deploy Hugo site to Pages #85: Commit e314b22 pushed by tina-cloud-app \[bot\]"](</uploads/Screenshot 2023-06-18 at 3.00.37 PM.png>)
+
 ## Struggles
 
 * Deploying to namecheap hosting fails
