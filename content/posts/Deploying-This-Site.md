@@ -28,6 +28,8 @@ I'll cover steps 3-5 in detail here (the first two are covered better elsewhere,
 
 TinaCMS requires 3 environment variables, and 2 of them are secret: TINA\_CLIENT\_ID and TINA\_TOKEN. You set these values when you connect TinaCMS to the cloud. 
 
+![](</uploads/Screenshot 2023-06-18 at 2.15.36 PM.png>)
+
 ### Creating The Action
 
 ```yaml
