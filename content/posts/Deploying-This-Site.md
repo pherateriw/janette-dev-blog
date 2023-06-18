@@ -22,13 +22,13 @@ Since this site and the source code for it are in a public Github repo, I settle
 4. Create the Github Action. 
 5. Test the deployment
 
-I'll cover steps 3-5 in detail here. 
+I'll cover steps 3-5 in detail here (the first two are covered better elsewhere, specifically in the links I provided). 
 
 ### Setting up Secrets
 
-First of all 
+TinaCMS requires 3 environment variables, and 2 of them are secret: TINA\_CLIENT\_ID and TINA\_TOKEN. You set these values when you connect TinaCMS to the cloud. 
 
-### The Action
+### Creating The Action
 
 ```yaml
 name: Deploy Hugo site to Pages
@@ -91,6 +91,8 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
 ```
+
+### Testing the Deployment
 
 ## Struggles
 
