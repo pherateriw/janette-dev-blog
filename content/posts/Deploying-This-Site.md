@@ -104,7 +104,8 @@ What this does:
 6. Generate the static pages. 
 7. Uses the secrets set up earlier. 
 8. Upload the static pages. 
-9. Uses the configured generated pages location from a [previous blog post](https://janetterounds.com/posts/creating-this-site/)
+9. Uses the configured generated pages location from a previous blog post[ .](https://janetterounds.com/posts/creating-this-site/)
+10.
 
 ### Testing the Deployment
 
