@@ -109,7 +109,7 @@ What this does:
 
 ### Testing the Deployment
 
-This is easy to do. Just create a PR to the main branch, and merge it. Observe the action on the Actions tab for your repo. If your action succeeds, there will be a lovely green checkmark. 
+This is easy to do. Just create a PR to the main branch, and merge it. Observe the action on the Actions tab for your repo. If your action succeeds, there will be a lovely green checkmark next to it. 
 
 ## Struggles
 
