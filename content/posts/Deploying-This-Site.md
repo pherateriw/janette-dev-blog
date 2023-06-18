@@ -16,11 +16,13 @@ For my own personal development, I also knew that paid development work would al
 
 Since this site and the source code for it are in a public Github repo, I settled on a couple of free resources that are available through Github for public repos. For hosting the site, I am using Github Pages (though I originally went with a different hosting provider first, more on that in the Struggles section). For deploying, I am using Github Actions. Professionally, I have used a number of paid services for deployment (CircleCI, Harness, TeamCity), but for ease of use and cost Github Actions was top of my list. I also bought the domain on Namecheap. Very broadly, the steps are:
 
-1. Creating a repo (see more on the building of the site here)
+1. Creating a repo (see more on the building of the site [here](https://janetterounds.com/posts/creating-this-site/))
 2. Setting up Github Pages for the repo
 3. Create secrets for the repo
 4. Create the Github Action. 
 5. Test the deployment
+
+I'll cover steps 3-5 in detail here. 
 
 ### Setting up Secrets
 
