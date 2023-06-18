@@ -39,55 +39,49 @@ To set the secrets for your action:
 
 ### Creating The Action
 
+Go to the Action Tab for your repo. If you haven't set up a previous Github Action, Github will have so many action templates for you to work from, or you can set up one without a template. Here is my action:
+
 ```yaml
 name: Deploy Hugo site to Pages
-on:
-  # Runs on pushes targeting the default branch
+on: 
   push:
-    branches: ["main"]
-  # Allows you to run this workflow manually from the Actions tab
+    branches: ["main"] # 1
   workflow_dispatch:
 
 jobs:
-  # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # 2
     env:
       HUGO_VERSION: 0.112.7
     steps:
-      # Install Hugo and other dependencies
-      - name: Install Hugo CLI
+      - name: Install Hugo CLI # 3
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass Embedded
         run: sudo snap install dart-sass-embedded
-      # Get the latest Code
-      - name: Checkout
+      - name: Checkout # 4
         uses: actions/checkout@v3
         with:
           submodules: recursive
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-      # Get the Node dependencies
-      - name: Install Node.js dependencies
+      - name: Install Node.js dependencies # 5
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      # Generate static pages
-      - name: Build with Hugo
+      - name: Build with Hugo # 6
         env:
-          TINA_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
+          TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }} # 7
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
           TINA_BRANCH: main
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
           npm run build
-      # Upload static pages
-      - name: Upload artifact
+      - name: Upload artifact # 8
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./static
+          path: ./static # 9
   deploy:
     environment:
       name: github-pages
@@ -95,11 +89,22 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      # Deploy static pages
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages # 10
         id: deployment
         uses: actions/deploy-pages@v2
 ```
+
+What this does:
+
+1. Sets the action to occur whenever I push to the main branch. 
+2. Sets up a container to run the action in. 
+3. Installs Hugo CLI.
+4. Checks out the code. 
+5. Installs Node dependencies. 
+6. Generate the static pages. 
+7. Uses the secrets set up earlier. 
+8. Upload the static pages. 
+9. Uses the configured generated pages location from a [previous blog post](https://janetterounds.com/posts/creating-this-site/)
 
 ### Testing the Deployment
 
