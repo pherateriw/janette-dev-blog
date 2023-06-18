@@ -113,8 +113,15 @@ This is easy to do. Just create a PR to the main branch, and merge it. Observe t
 
 ![A screenshot of a successful Github Action with a green checkmark and the text "TinaCMS content update by Janette Rounds". Under that, there is more text "Deploy Hugo site to Pages #85: Commit e314b22 pushed by tina-cloud-app \[bot\]"](</uploads/Screenshot 2023-06-18 at 3.00.37 PM.png>)
 
+If your action does not succeed, you can then click on the failed deployment and check out the logs. 
+
 ## Struggles
 
-* Deploying to namecheap hosting fails
+* I originally had planned to use Namecheap for shared hosting as well. I went through some struggles before I finally gave up on Namecheap shared hosting including:
+  * Using cPanel.yaml to deploy directly to Namecheap. However, this required I add a yaml file with my cPanel username checked into source control in the root directory. My cPanel username is not a super huge secret, but I still didn't want it floating about the internet. (I have since changed my cPanel username.)
+  * Using Github integration with Namecheap to checkout the updated code and then build it, and move the static pages into the correct folder for the public site. There were a lot of problems with this plan: I needed Hugo to be installed on the Namecheap shared host, the version of Node was incompatible with many of the packages that TinaCMS requires, and worst of all, there were still manual steps in the process that I would have had to automate with shell scripts or something. 
+  * Using the Github Action to generate the static pages and then use FTP to upload the generated pages to Namecheap shared hosting. This wasn't working originally, but at that point I hadn't figured out how to configure Hugo to generate everything in the `static` directory rather than the `public` directory. However, I've since figured it out, so I suppose this might work if I need to move away from Github Pages. 
 
 ## Wrapping Up
+
+This site is pretty simple, all things considered, so for right now, generating and deploying the static pages is all I really need. However, there are a LOT of ways to use Github Actions to automate things. For example, you could use it to run unit tests, deploy to a development or testing environment prior to full deployment, notify folks of changes, generate a changelog, and many more things. I hope this was helpful to you, or at least that I convinced you that your deployments should be automated. Thanks for reading!
