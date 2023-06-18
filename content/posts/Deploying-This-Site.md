@@ -28,11 +28,14 @@ I'll cover steps 3-5 in detail here (the first two are covered better elsewhere,
 
 TinaCMS requires 3 environment variables, and 2 of them are secret: TINA\_CLIENT\_ID and TINA\_TOKEN. You set these values when you connect TinaCMS to the cloud. 
 
-![A screenshot of Github Settings menu with 'Secrets and Variables' sub-menu opened and the 'Actions' option highlighted.](</uploads/Screenshot 2023-06-18 at 2.15.36 PM.png>)
+To set the secrets for your action:
 
-![](</uploads/Screenshot 2023-06-18 at 2.16.14 PM.png>)
-
-![](</uploads/Screenshot 2023-06-18 at 2.16.29 PM.png>)
+1. Go to the settings page for your repo.
+2. In the sidebar menu, select Secrets and Variables and click on Actions. \
+   ![A screenshot of Github Settings menu with 'Secrets and Variables' sub-menu opened and the 'Actions' option highlighted.](</uploads/Screenshot 2023-06-18 at 2.15.36 PM.png>)
+3. Hit the "New Repository Secret" button.
+4. Name your secret. When you reference the secret in your action, you'll use `secrets.<NAME>`. The UPPERCASE convention is just that, a convention, but it helps to visually set values apart. Also, keep in mind how you will use the secret. It helps me to keep names mostly consistent. ![A screenshot of the Actions secrets/New secret page in Github](</uploads/Screenshot 2023-06-18 at 2.16.29 PM.png>)
+5. Add the actual secret value. 
 
 ### Creating The Action
 
