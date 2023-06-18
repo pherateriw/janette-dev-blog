@@ -1,7 +1,7 @@
 ---
 title: Deploying This Site
 date: 2023-06-18T06:00:00.000Z
-draft: true
+draft: false
 ---
 
 There are so many reasons a manual deployment can cause problems. Some manual deployment problems I've seen in the past have included:
