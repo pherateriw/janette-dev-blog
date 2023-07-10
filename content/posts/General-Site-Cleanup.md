@@ -12,3 +12,19 @@ After [Creating the site](https://janetterounds.com/posts/creating-this-site/) a
 * Updating the TinaCMS graphql schema
 * Adding analytics
 * Possibly other things TBD
+
+## Using Branches
+
+This was quite simple. I added the following code to Line 8 of my tina/config.ts file:\
+
+
+```javascript
+cmsCallback: cms => {
+  cms.flags.set("branch-switcher", true);
+  return cms;
+},
+```
+
+I merged my PR and now this post is being edited within a branch on Github!
+
+## Images Out of Source Control
