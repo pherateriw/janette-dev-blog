@@ -49,6 +49,12 @@ export default defineConfig({
             label: "Draft",
           },
           {
+            type: "string",
+            name: "tags",
+            label: "Tags",
+            list: true
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",
