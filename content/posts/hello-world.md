@@ -2,13 +2,15 @@
 title: 'Hello, World!'
 date: 2023-06-04T06:00:00.000Z
 draft: false
+tags:
+  - personal
 ---
 
 ## Hello World!
 
 Hi! My name is Janette and I'm a software engineer. Welcome to my new blog! In my career, I've done a little bit of a lot of things, but I wanted to start doing deeper dives on some personal projects.  You can find more about me and links to my other stuff on the About page.
 
-This blog will mostly be about my personal development projects, with some other art and science stuff thrown in for spice. 
+This blog will mostly be about my personal development projects, with some other art and science stuff thrown in for spice.
 
 ### Upcoming development projects
 
